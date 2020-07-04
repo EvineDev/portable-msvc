@@ -1,0 +1,16 @@
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.Rhistory
+.RData
+desktop.ini
+
+msvc
+*.exe
+*.o
+*.obj
+*.ilk
+*.pdb
+.vs
