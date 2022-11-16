@@ -13,10 +13,10 @@ SECURITY_ATTRIBUTES default_dir_security_attributes = {
 
 char *vcvarsportable =
 "@echo off\r\n"
-"set PATH=%CD%;%PATH%\r\n"
-"set INCLUDE=%CD%\\include\r\n"
-"set LIB=%CD%\\lib\r\n"
-"set LIBPATH=%CD%\\libpath\r\n";
+"set PATH=%~dp0;%PATH%\r\n"
+"set INCLUDE=%~dp0\\include\r\n"
+"set LIB=%~dp0\\lib\r\n"
+"set LIBPATH=%~dp0\\libpath\r\n";
 
 
 void copy_cl_files(char *sub_dir, char *str, int len) {
